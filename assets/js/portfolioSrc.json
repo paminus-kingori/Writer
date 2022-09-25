@@ -1,58 +1,213 @@
 [
     {
         "id": "01",
-        "portfolio_title": "Woocommerce website",
-        "portfolio_feature_img": "https://daniel-cimanuka-portfolio.vercel.app/images/islam.png",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph1.jpeg",
         "portfolio_category": "Graphic",
-        "published_date": "May 02, 2020",
+        "published_date": "",
         "role": {
-            "01": "UX Researcher",
-            "02": "UX Designer"
+            "01": "",
+            "02": ""
         },
-        "client_name": "Amily Watson",
-        "project_start_date": "June 24, 2020",
-        "porject_end_date": "July 21, 2022"
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+     {
+        "id": "02",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph2.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
     },
     {
-        "id": "02",
-        "portfolio_title": "Food Website",
-        "portfolio_feature_img": "https://i.ibb.co/RzRvNgr/portfolio-2.png",
-        "portfolio_category": "Article",
-        "published_date": "May 02, 2020",
+        "id": "03",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph3.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
         "role": {
-            "01": "UX Researcher",
-            "02": "UX Designer"
+            "01": "",
+            "02": ""
         },
-        "client_name": "Amily Watson",
-        "project_start_date": "June 24, 2020",
-        "porject_end_date": "July 21, 2022"
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
     },
     {
-        "id": "02",
-        "portfolio_title": "Food Website",
-        "portfolio_feature_img": "https://i.ibb.co/RzRvNgr/portfolio-2.png",
-        "portfolio_category": "Story",
-        "published_date": "May 02, 2020",
+        "id": "04",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph4.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
         "role": {
-            "01": "UX Researcher",
-            "02": "UX Designer"
+            "01": "",
+            "02": ""
         },
-        "client_name": "Amily Watson",
-        "project_start_date": "June 24, 2020",
-        "porject_end_date": "July 21, 2022"
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
     },
     {
-        "id": "02",
-        "portfolio_title": "Food Website",
-        "portfolio_feature_img": "https://i.ibb.co/RzRvNgr/portfolio-2.png",
-        "portfolio_category": "Book",
-        "published_date": "May 02, 2020",
+        "id": "05",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph5.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
         "role": {
-            "01": "UX Researcher",
-            "02": "UX Designer"
+            "01": "",
+            "02": ""
         },
-        "client_name": "Amily Watson",
-        "project_start_date": "June 24, 2020",
-        "porject_end_date": "July 21, 2022"
-    }
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "06",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/jpeg6.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "07",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph7.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "08",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph8.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "09",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph9.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "10",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph10.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "11",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph11.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "12",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph12.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "13",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph13.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "14",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph14.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "14",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph14.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    
 ]
