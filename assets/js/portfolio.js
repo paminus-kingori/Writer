@@ -137,9 +137,7 @@ function displayTabPosts(posts) {
             <div class="portfolio-card__meta">
                 <p>${post.portfolio_category}</p>
             </div>
-            <h2 class="portfolio-card__title"><a href="">${post.portfolio_title}</a></h2>
-            <p class="blog-card__short-desc" style=" margin-bottom: 20px; "> ${post.portfolio_description}</p>
-            <a class="portfolio-card__btn " target="_blank" href="${post.link}">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
+            
         `;
 
             portfolioTabArticle.appendChild(div);
@@ -164,9 +162,7 @@ function displayTabPosts(posts) {
             <div class="portfolio-card__meta">
                 <p>${post.portfolio_category}</p>
             </div>
-            <h2 class="portfolio-card__title"><a href="">${post.portfolio_title}</a></h2>
-            <p class="blog-card__short-desc" style=" margin-bottom: 20px; "> ${post.portfolio_description}</p>
-            <a class="portfolio-card__btn " target="_blank" href="${post.link}">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
+            
         `;
 
             portfolioTabStory.appendChild(div);
@@ -184,14 +180,14 @@ function displayTabPosts(posts) {
             div.classList.add("portfolio-card");
             div.innerHTML = `
             <div class="portfolio-card__feature-image">
-                <a href="${post.link}"><img src=${post.portfolio_feature_img} /></a>
+                <a href="https://wa.me/250784673524"><img src=${post.portfolio_feature_img} /></a>
             </div>
             <div class="portfolio-card__meta">
                 <p>${post.portfolio_category}</p>
             </div>
-            <h2 class="portfolio-card__title"><a href="">${post.portfolio_title}</a></h2>
+            <h2 class="portfolio-card__title"><a href="https://wa.me/250784673524">${post.portfolio_title}</a></h2>
            
-            <a class="portfolio-card__btn " target="_blank" href="${post.link}">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="portfolio-card__btn " target="_blank" href="https://wa.me/250784673524">Order your copy  <i class="fa-solid fa-arrow-right"></i></a>
         `;
             portfolioTabBook.appendChild(div);
         }
