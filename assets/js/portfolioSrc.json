@@ -1,58 +1,528 @@
 [
     {
         "id": "01",
-        "portfolio_title": "Woocommerce website",
-        "portfolio_feature_img": "https://daniel-cimanuka-portfolio.vercel.app/images/islam.png",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph1.jpeg",
         "portfolio_category": "Graphic",
-        "published_date": "May 02, 2020",
+        "published_date": "",
         "role": {
-            "01": "UX Researcher",
-            "02": "UX Designer"
+            "01": "",
+            "02": ""
         },
-        "client_name": "Amily Watson",
-        "project_start_date": "June 24, 2020",
-        "porject_end_date": "July 21, 2022"
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+     {
+        "id": "02",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph2.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
     },
     {
-        "id": "02",
-        "portfolio_title": "Food Website",
-        "portfolio_feature_img": "https://i.ibb.co/RzRvNgr/portfolio-2.png",
+        "id": "03",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph3.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "04",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph4.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "05",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph5.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "06",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph6.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "07",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph7.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "08",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph8.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "09",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph9.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "10",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph10.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "11",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph11.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "12",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph12.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "13",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph13.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "14",
+        "portfolio_title": "",
+        "portfolio_feature_img": "https://raw.githubusercontent.com/paminus-kingori/Writer/main/assets/images/img/graph14.jpeg",
+        "portfolio_category": "Graphic",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+
+    {
+        "id": "16",
+        "portfolio_title": "The First Islam Compliant Cryptocurrency | Sharia finace",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-07-10-2525mm0khl6r012pg1n96hzs.png",
         "portfolio_category": "Article",
-        "published_date": "May 02, 2020",
+        "link": "https://noticefax.com/posts/The-First-Islam-Compliant-Cryptocurrency-or-Sharia-finace-1657428025",
+        "portfolio_description": "If you are one of those people who still do not understand Islamic finance, how it works,etc",
+        "published_date": "Jul 10, 2022",
         "role": {
-            "01": "UX Researcher",
-            "02": "UX Designer"
+            "01": "",
+            "02": ""
         },
-        "client_name": "Amily Watson",
-        "project_start_date": "June 24, 2020",
-        "porject_end_date": "July 21, 2022"
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } ,
+    {
+        "id": "17",
+        "portfolio_title": "All you need to know about Binance & Central bank digital currency CBDC",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-05-07-3131smsxvphk6vsn7xd5w8zd.png",
+        "portfolio_category": "Article",
+        "link": "https://noticefax.com/posts/All-you-need-to-know-about-Binance-and-Central-bank-digital-currency-CBDC-1651888652",
+        "portfolio_description": "The purpose of the Article is to better understand Binance, cryptocurrencies in general, to understand their impact on reserve management and to determine the functions that cryptocurrencies should receive in the development process.",
+        "published_date": "May 7, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
     },
     {
-        "id": "02",
-        "portfolio_title": "Food Website",
-        "portfolio_feature_img": "https://i.ibb.co/RzRvNgr/portfolio-2.png",
+        "id": "18",
+        "portfolio_title": "A message to young Graduates, Talented and Entrepreneurs",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-03-24-4747kzoe0d61v7orwfr1lwm8.jpg",
+        "portfolio_category": "Article",
+        "link": "https://noticefax.com/posts/A-message-to-young-Graduates-Talented-and-Entrepreneurs-1648134234",
+        "portfolio_description": "If you have an idea or a project to start, start today, because there is no better time to start than now. deciding to invest the little you have in business is the right decision.",
+        "published_date": "Mar 24, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "19",
+        "portfolio_title": "The Next-Gen Gaming Metaverse, Star Atlas | part one",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-04-28-5353ozzgns0i04wv4bk54uka.jpg",
+        "portfolio_category": "Article",
+        "link": "https://noticefax.com/posts/The-Next-Gen-Gaming-Metaverse-Star-Atlas-or-part-one-1651138854",
+        "portfolio_description": "Understanding what is happening in the space and how you can profit from it and why the fuss about Metaverse and Ntfs can be challenging ",
+        "published_date": "Apr 28, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "20",
+        "portfolio_title": "The obstacles that have prevented me from developing professionally | Part 1",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-07-31-5858jo8utyt7m3qic4cm398l.jpg",
+        "portfolio_category": "Article",
+        "link": "https://noticefax.com/posts/The-obstacles-that-have-prevented-me-from-developing-professionally-or-Part-1-1659293158",
+        "portfolio_description": "My name is Steve, I am African who lives in Africa but not in my home country, As i'm speaking to you, I am 30 years old.",
+        "published_date": "Jul 31, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "21",
+        "portfolio_title": "Understanding Blockchain & Cryptocurrency.",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-04-26-4444iy1mh1lavhndp5bazfna.jpg",
+        "portfolio_category": "Article",
+        "link": "https://noticefax.com/posts/Understanding-Blockchain-and-Cryptocurrency.-1651011405",
+        "portfolio_description": "What is Blockchain? How does it work? What is Crypto currency and how does it work too?",
+        "published_date": "Apr 27, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    },
+    {
+        "id": "22",
+        "portfolio_title": "He came in sheep's clothing, but inside he's a ravenous wolf",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-08-31-1515a0op7pkq1avpygcywb5o.jpg",
         "portfolio_category": "Story",
-        "published_date": "May 02, 2020",
+        "link": "https://noticefax.com/posts/Aname's-Dream-Gone-Wrong-or-aborted-dream-1657683623",
+        "portfolio_description": "There was a certain village girl named Aname whose dream was to marry a responsible, educated husband with lots of money and everything else, ",
+        "published_date": "Jul 13, 2022",
         "role": {
-            "01": "UX Researcher",
-            "02": "UX Designer"
+            "01": "",
+            "02": ""
         },
-        "client_name": "Amily Watson",
-        "project_start_date": "June 24, 2020",
-        "porject_end_date": "July 21, 2022"
-    },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } 
+    ,
     {
-        "id": "02",
-        "portfolio_title": "Food Website",
-        "portfolio_feature_img": "https://i.ibb.co/RzRvNgr/portfolio-2.png",
-        "portfolio_category": "Book",
-        "published_date": "May 02, 2020",
+        "id": "23",
+        "portfolio_title": "Please Mum, wake up | This is how my bad behaviors killed my parents",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-07-07-2020a7mns7nxguvu397xfciz.jpg",
+        "portfolio_category": "Story",
+        "link": "https://noticefax.com/posts/Please-Mum-wake-up-or-This-is-how-my-bad-behaviors-killed-my-parents-1657172420",
+        "portfolio_description": "Honor, obey, respect your parents while they are still alive.  No one knows the value of parents like an orphan.",
+        "published_date": "Jul 7, 2022",
         "role": {
-            "01": "UX Researcher",
-            "02": "UX Designer"
+            "01": "",
+            "02": ""
         },
-        "client_name": "Amily Watson",
-        "project_start_date": "June 24, 2020",
-        "porject_end_date": "July 21, 2022"
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } ,
+    {
+        "id": "24",
+        "portfolio_title": "Amelia's affair with her Boss Manager | Part 1",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-04-07-1919nbhlsi6sfqk1jz1v49rx.png",
+        "portfolio_category": "Story",
+        "link": "https://noticefax.com/posts/Amelia's-affair-with-her-Boss-Manager-or-Part-1-1649358439",
+        "portfolio_description": "There was a girl named Amelia and her boyfriend Manzi, they studied in the same school from primary to university, their relationship started when they arrived in secondary 3.",
+        "published_date": "Apr 7, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } ,
+    {
+        "id": "25",
+        "portfolio_title": "Sophia's sexual discovery with Lucas in Kigali | part one.",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-04-25-077mxapct15gxxl6wfmc1wb.PNG",
+        "portfolio_category": "Story",
+        "link": "https://noticefax.com/posts/Sophia's-sexual-discovery-with-Lucas-in-Kigali-1650905408",
+        "portfolio_description": "My name is Sophia, I am 29 years old, I met my true love James in South Africa and we have been together for 6 years, he was my first love and I allowed him to take my virginity",
+        "published_date": "Apr 25, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } ,
+    {
+        "id": "26",
+        "portfolio_title": "Talking with my dead sister | Part One.",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-05-10-5858di1pm7yo6mn3vo9kv27l.jpg",
+        "portfolio_category": "Story",
+        "link": "https://noticefax.com/posts/Talking-with-my-dead-sister-or-Part-One.-1652149679",
+        "portfolio_description": "My sister and I come from a wealthy family, but my parents liked living away from the city. We lived in a small unknown village and we were alone in the village.",
+        "published_date": "May 10, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } ,
+    {
+        "id": "27",
+        "portfolio_title": "The story of Okito and Suzan | Part 2",
+        "portfolio_feature_img": "https://noticefax.fra1.digitaloceanspaces.com/posts/2022-08-28-077k9mqsxqxeauoe3op4jz5.jpg",
+        "portfolio_category": "Story",
+        "link": "https://noticefax.com/posts/under-edit-1661649663",
+        "portfolio_description": "So far,Suzan has taken good care of Okito's daughters and they were happy with her. Okito has been a single dad for years now and Suzan was a 25 year old ",
+        "published_date": "Aug 28, 2022",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    }  
+    ,
+    {
+        "id": "28",
+        "portfolio_title": "Lack of Trust",
+        "portfolio_feature_img": "assets/images/img/Lack-of-trust.jpeg",
+        "portfolio_category": "Book",
+        "link": "",
+        "portfolio_description": "",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } 
+    ,
+    {
+        "id": "29",
+        "portfolio_title": "The unrevealed feelings 1",
+        "portfolio_feature_img": "assets/images/img/feelings1.jpeg",
+        "portfolio_category": "Book",
+        "link": "",
+        "portfolio_description": "",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } 
+    ,
+    {
+        "id": "29",
+        "portfolio_title": "The unrevealed feelings 2",
+        "portfolio_feature_img": "assets/images/img/feelings2.jpeg",
+        "portfolio_category": "Book",
+        "link": "",
+        "portfolio_description": "",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    } 
+    ,
+    {
+        "id": "30",
+        "portfolio_title": "Personal Development",
+        "portfolio_feature_img": "assets/images/img/personal.jpeg",
+        "portfolio_category": "Book",
+        "link": "",
+        "portfolio_description": "",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    }
+    ,
+    {
+        "id": "31",
+        "portfolio_title": "Devenir UN Grand Leader",
+        "portfolio_feature_img": "assets/images/img/grand.jpeg",
+        "portfolio_category": "Book",
+        "link": "",
+        "portfolio_description": "",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    }
+    ,
+    {
+        "id": "32",
+        "portfolio_title": "UN Oiseau Messager",
+        "portfolio_feature_img": "assets/images/img/messager.jpeg",
+        "portfolio_category": "Book",
+        "link": "",
+        "portfolio_description": "",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    }
+    ,
+    {
+        "id": "33",
+        "portfolio_title": "Talking with to my dead sister Part One.",
+        "portfolio_feature_img": "assets/images/img/sister1.jpeg",
+        "portfolio_category": "Book",
+        "link": "",
+        "portfolio_description": "",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
+    }
+    ,
+    {
+        "id": "34",
+        "portfolio_title": "Digital Transformation",
+        "portfolio_feature_img": "assets/images/img/digital.jpeg",
+        "portfolio_category": "Book",
+        "link": "",
+        "portfolio_description": "",
+        "published_date": "",
+        "role": {
+            "01": "",
+            "02": ""
+        },
+        "client_name": "",
+        "project_start_date": "",
+        "porject_end_date": ""
     }
 ]

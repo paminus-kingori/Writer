@@ -1,5 +1,7 @@
 function loadPosts() {
-    fetch("https://raw.githubusercontent.com/paminus-kingori/writer-portfolio/main/portfolioSrc.json")
+    // fetch("https://raw.githubusercontent.com/paminus-kingori/writer-portfolio/main/portfolioSrc.json")
+    fetch("assets/js/portfolioSrc.json")
+
         .then((res) => res.json())
         .then((data) => {
             displayPosts(data);
@@ -7,13 +9,15 @@ function loadPosts() {
 }
 
 function displayPosts(posts) {
-    console.log(posts);
-    const slicePosts = posts.slice(0, 6);
+    // console.log(posts);
+    // const slicePosts = posts.slice(0, 6);
+    const slicePosts = posts;
     const portfolio = document.getElementById("portfolio");
     for (const post of slicePosts) {
         const div = document.createElement("div");
         div.classList.add("portfolio-card");
-        div.innerHTML = `
+        if(post.portfolio_category  === "Graphic"){
+            div.innerHTML = `
             <div class="portfolio-card__feature-image">
                 <a href=""><img src=${post.portfolio_feature_img} /></a>
             </div>
@@ -21,9 +25,23 @@ function displayPosts(posts) {
                 <p>${post.portfolio_category}</p>
             </div>
             <h2 class="portfolio-card__title"><a href="">${post.portfolio_title}</a></h2>
-            <a class="portfolio-card__btn " href="">View Project  <i class="fa-solid fa-arrow-right"></i></a>
+            
         `;
+        }
+        else{
+        div.innerHTML = `
+            <div class="portfolio-card__feature-image">
+                <a href=""><img loading="lazy" src=${post.portfolio_feature_img} /></a>
+            </div>
+            <div class="portfolio-card__meta">
+                <p>${post.portfolio_category}</p>
+            </div>
+            <h2 class="portfolio-card__title"><a href="">${post.portfolio_title}</a></h2>
+            
+            <a class="portfolio-card__btn " href="">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
+        `;}
         portfolio.appendChild(div);
+        
     }
 }
 loadPosts();
@@ -32,7 +50,7 @@ loadPosts();
 
 function loadDuePosts(e) {
     e.preventDefault();
-    fetch("https://raw.githubusercontent.com/paminus-kingori/writer-portfolio/main/portfolioSrc.json")
+    fetch("assets/js/portfolioSrc.json")
         .then((res) => res.json())
         .then((data) => {
             displayDuePosts(data);
@@ -41,7 +59,7 @@ function loadDuePosts(e) {
 }
 
 function displayDuePosts(posts) {
-    const slicePosts = posts.slice(0, 6);
+    const slicePosts = posts;
     const portfolio = document.getElementById("portfolio");
     for (const post of slicePosts) {
         const div = document.createElement("div");
@@ -66,7 +84,7 @@ function displayDuePosts(posts) {
 // tab script
 
 function tab(category) {
-    fetch("https://raw.githubusercontent.com/paminus-kingori/writer-portfolio/main/portfolioSrc.json")
+    fetch("assets/js/portfolioSrc.json")
         .then((res) => res.json())
         .then((data) => {
             const filterData = data.filter((d) => d.portfolio_category === category);
@@ -89,16 +107,17 @@ function displayTabPosts(posts) {
             const div = document.createElement("div");
             div.innerHTML = `
             <div class="portfolio-card__feature-image">
-                <a href="singlePortfolio.html"><img src=${post.portfolio_feature_img} /></a>
+                <img src=${post.portfolio_feature_img} />
             </div>
             <div class="portfolio-card__meta">
                 <p>${post.portfolio_category}</p>
-            </div>
-            <h2 class="portfolio-card__title"><a href="singlePortfolio.html">${post.portfolio_title}</a></h2>
-            <a class="portfolio-card__btn " href="singlePortfolio.html">View Project  <i class="fa-solid fa-arrow-right"></i></a>
+            </div>           
         `;
+    
 
             portfolioTabGraphic.appendChild(div);
+
+
         }
         if (post.portfolio_category === "Article") {
             document.getElementById("portfolioTabArticle").style.display =
@@ -113,16 +132,19 @@ function displayTabPosts(posts) {
             div.classList.add("portfolio-card");
             div.innerHTML = `
             <div class="portfolio-card__feature-image">
-                <a href="singlePortfolio.html"><img src=${post.portfolio_feature_img} /></a>
+                <a href="${post.link}"><img src=${post.portfolio_feature_img} /></a>
             </div>
             <div class="portfolio-card__meta">
                 <p>${post.portfolio_category}</p>
             </div>
-            <h2 class="portfolio-card__title"><a href="singlePortfolio.html">${post.portfolio_title}</a></h2>
-            <a class="portfolio-card__btn " href="singlePortfolio.html">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
+            <h2 class="portfolio-card__title"><a href="">${post.portfolio_title}</a></h2>
+            <p class="blog-card__short-desc" style=" margin-bottom: 20px; "> ${post.portfolio_description}</p>
+            <a class="portfolio-card__btn " target="_blank" href="${post.link}">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
         `;
 
             portfolioTabArticle.appendChild(div);
+            const moreBtn = document.createElement('a');
+            moreBtn.innerHTML = '<a class="load-more-btn">Load More</a>';
         }
         if (post.portfolio_category === "Story") {
             document.getElementById("portfolioTabStory").style.display =
@@ -137,13 +159,14 @@ function displayTabPosts(posts) {
             div.classList.add("portfolio-card");
             div.innerHTML = `
             <div class="portfolio-card__feature-image">
-                <a href="singlePortfolio.html"><img src=${post.portfolio_feature_img} /></a>
+                <a href="${post.link}"><img src=${post.portfolio_feature_img} /></a>
             </div>
             <div class="portfolio-card__meta">
                 <p>${post.portfolio_category}</p>
             </div>
-            <h2 class="portfolio-card__title"><a href="singlePortfolio.html">${post.portfolio_title}</a></h2>
-            <a class="portfolio-card__btn " href="singlePortfolio.html">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
+            <h2 class="portfolio-card__title"><a href="">${post.portfolio_title}</a></h2>
+            <p class="blog-card__short-desc" style=" margin-bottom: 20px; "> ${post.portfolio_description}</p>
+            <a class="portfolio-card__btn " target="_blank" href="${post.link}">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
         `;
 
             portfolioTabStory.appendChild(div);
@@ -161,18 +184,20 @@ function displayTabPosts(posts) {
             div.classList.add("portfolio-card");
             div.innerHTML = `
             <div class="portfolio-card__feature-image">
-                <a href="singlePortfolio.html"><img src=${post.portfolio_feature_img} /></a>
+                <a href="${post.link}"><img src=${post.portfolio_feature_img} /></a>
             </div>
             <div class="portfolio-card__meta">
                 <p>${post.portfolio_category}</p>
             </div>
-            <h2 class="portfolio-card__title"><a href="singlePortfolio.html">${post.portfolio_title}</a></h2>
-            <a class="portfolio-card__btn " href="singlePortfolio.html">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
+            <h2 class="portfolio-card__title"><a href="">${post.portfolio_title}</a></h2>
+           
+            <a class="portfolio-card__btn " target="_blank" href="${post.link}">Learn More  <i class="fa-solid fa-arrow-right"></i></a>
         `;
             portfolioTabBook.appendChild(div);
         }
         
     }
+
 
 }
 

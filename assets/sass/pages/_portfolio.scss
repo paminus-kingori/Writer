@@ -36,7 +36,19 @@
       }
     }
   }
+  .portfolio-card__title a { margin-bottom: 20px! important;}
   #portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;
+    margin-bottom: 64px;
+    // div{max-width: 350px;}
+    @include max(767px) {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    }
+  }
+  #portfolioTabGraphic {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 45px;
@@ -46,47 +58,37 @@
       grid-gap: 20px;
     }
   }
-  #portfolioTabImages {
+  #portfolioTabArticle {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 45px;
-    // margin-bottom: 64px;
+     margin-bottom: 64px;
     @include max(767px) {
       grid-template-columns: 1fr;
       grid-gap: 20px;
     }
   }
-  #portfolioTabWebDesign {
+  #portfolioTabStory {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 45px;
-    //  margin-bottom: 64px;
+    margin-bottom: 64px;
     @include max(767px) {
       grid-template-columns: 1fr;
       grid-gap: 20px;
     }
   }
-  #portfolioTabPotrait {
+  #portfolioTabBook {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 45px;
-    // margin-bottom: 64px;
+    margin-bottom: 64px;
     @include max(767px) {
       grid-template-columns: 1fr;
       grid-gap: 20px;
     }
   }
-  #portfolioTabMobileApp {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 45px;
-    // margin-bottom: 64px;
-    @include max(767px) {
-      grid-template-columns: 1fr;
-      grid-gap: 20px;
-    }
-  }
-  #load-more-btn {
+  .load-more-btn {
     outline: none;
     border: none;
     font-size: 14px;
